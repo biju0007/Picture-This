@@ -13,50 +13,49 @@
   <header class="header">
     <div class="title">
       <h1>Picture This</h1>
-      <h3>web page</h3>
+      <h3>web page of picture this assignment</h3>
     </div>
     <picture class="pic">
       <!--960px less than frame-->
-      <source srcset="C:\Users\13435\Documents\picture this assignment\Picture-This\images\1X\museum-320_x_180.png,
-                      img/art/landscape/lego_landscape_1440.png 1.5x,
-                      img/art/landscape/lego_landscape_1920.png 2x"
-              media="(min-width: 640px)"/>
+      <source srcset="images/1x/museum-320_x_180.jpg,
+                       images/2x/museum-640_x_360.jpg 2x,
+                       images/3x/museum-960_x_540.jpg 3x"
+                       media="(max-width: 320px)"/>
   
-      <source srcset="img/art/square/lego_square_640.png,
-                          img/art/square/lego_square_960.png 1.5x,
-                          img/art/square/lego_square_1440.png 2x"
-              media="(min-width: 480px)"/>
+       <source srcset="images/1x/museum-480_x_270.jpg,
+                       images/2x/museum-960_x_540.jpg 2x,
+                       images/3x/museum-1440_x_810.jpg 3x"
+                       media="(max-width: 480px)"/>
   
-      <source srcset="img/art/square/lego_square_480.png,
-                          img/art/square/lego_square_720.png 1.5x,
-                          img/art/square/lego_square_960.png 2x,
-                          img/art/square/lego_square_1440.png 3x"
-              media="min-width: 320px)" />
+       <source srcset="images/1x/museum-720_x_405.jpg,
+                       images/2x/museum-1440_x_810.jpg 2x,
+                       images/3x/museum-2160_x_1215.jpg 3x"
+                       media="(max-width: 720px)" />
+
+       <source srcset="images/1x/museum-960_x_540.jpg,
+                       images/2x/museum-1920_x_1080.jpg 2x,
+                       images/3x/museum-2880_x_1621.jpg 3x"
+                       media="(max-width: 959px)" />
+
   
-      <source srcset="img/art/portrait/lego_portrait_320.png,
-                          img/art/portrait/lego_portrait_480.png 1.5x,
-                          img/art/portrait/lego_portrait_640.png 2x,
-                          img/art/portrait/lego_portrait_960.png 3x"
-              media="(max-width: 319px)" />
-  
+      
         <!--960px more than frame-->
 
-
-        <source srcset="images-800_x_800.jpg,
-        images/-1600_x_1600.jpg 2x,
-        images-2400_x_2400.jpg 3x"
+        <source srcset="images/1x/museum-800_x_800.jpg,
+        images/2x/museum-1600_x_1600.jpg 2x,
+        images/3x/museum-2400_x_2400.jpg 3x"
         media="(min-width: 1600px)" />
 
-          <source srcset="images/Square/museum-640_x_640.jpg,
-                  images/960_x_960.jpg 2x,
-                  images-1280_x_1280.jpg 3x"
-                  media="(min-width: 1280px)"/>
+        <source srcset="images/1x/museum-640_x_640.jpg,
+        images/2x/museum-960_x_960.jpg 2x,
+        images/3x/museum-1280_x_1280.jpg 3x"
+        media="(min-width: 1280px)"/>
 
-          <source srcset="images/Square/museum-480_x_480.jpg,
-                  images-960_x_960.jpg 2x,
-                  image-1440_x_1440.jpg 3x"
-                  media="(min-width: 960px)"/>
-                  <img src="images/museum.jpg " alt="Museum">
+        <source srcset="images/1x/museum-1440_x_1440.jpg,
+        images/3x/museum-1920_x_1920.jpg 2x,
+        images/3x/museum-1440_x_1440.jpg 3x"
+        media="(min-width: 959px)"/>
+        <img src="images/2x/museum-960_x_540.jpg" alt="image of museum">
   </picture>
   </header>
 </body>
