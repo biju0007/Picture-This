@@ -15,8 +15,23 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
+    <picture>
+              <source srcset=".../images/"
+              media="(max-width: 960px)" />
 
+              <source srcset="img/art/square/lego_square_640.png"
+                  media="(max-width: 720px)" />
+
+              <source srcset="img/art/square/lego_square_480.png"
+                  media="(max-width: 480px)" />
+                  
+                  <source srcset="img/art/square/lego_square_480.png"
+                  media="(max-width: 320px)" />
+
+<img class="orig-img"
+ src="images/museum.jpg"
+ alt="Picture of something from the internet">
+</picture>
   </header>
 </body>
 
